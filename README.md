@@ -1,21 +1,33 @@
-# Dom exercise
+Práctica del DOM 🚗
+Este proyecto es una práctica del uso del DOM (Document Object Model) en JavaScript para realizar cambios dinámicos en la interfaz de usuario.
 
-Este repositorio nos servirá como base para coonocer los diferente tipos de Dom que tenemos en javascript y construir de tal forma un proyecto que podría ser real. También, a parte de la explicación recibida en clase, las coder deberán realizar una refactorización del código que tenga después de la explicación y la realización de los test de cada función.
+Descripción del Proyecto
+El proyecto consiste en una tarjeta de producto de un automóvil Mercedes Benz C300 2022. Permite al usuario cambiar el color del automóvil haciendo clic en botones de colores disponibles.
 
-El proyecto ya esta realizado con la arquitectura adecuada para su funcionamiento.
+*Tecnologías Empleadas
 
-## Requisitos para el funcionamiento actual
+HTML5
+CSS3
+JavaScript (ES6+)
+Font Awesome - Para iconos
+Google Fonts - Para la fuente "Poppins"
 
-- Visual Studio Code
+* IMAGENES  📸
 
-## Requisitos para realizar el testing
+![Coche  Rojo]( public/img/redcar.jpg)
+![Coche  Gris]( public/img/graycar.jpg)
+![Coche  Negro]( public/img/blackcar.jpg)
 
-- El testing se deberá de realizar en [vitest](https://vitest.dev/guide/)
-- Una vez instalado deberás poner en este **readme** (que deberás modificar), el proceso para que una persona que llegué al repositorio pueda hacer correr los test
+* Cómo Instalar 🛠️
+Asegúrate de tener Node.js instalado en tu sistema.
+Clona este repositorio  ( git clone https://github.com/FemCoders-BCN/dom-exercise-AliciaoE.git  )
+Abre una terminal en la carpeta del proyecto.
+Ejecuta el comando npm install para instalar las dependencias.
 
-## Requisitos del Readme
+* Cómo Correr los Tests 🧪
+Asegúrate de haber seguido los pasos de instalación. Luego, ejecuta el siguiente comando:
 
-- DEBERÁ llevar una breve descripción del proyecto
-- DEBERÁ lleva las imágenes que muestren el proyecto
-- DEBERÁ llevar las tecnologías empleadas
-- DEBERÁ llevar como se debe hacer el proceso para instalar todo lo necesario para que se corran los test (instalar nodejs, hacer npm install  o npm i)
+bash (terminal)
+npm install
+npm test
+Este comando ejecutará las pruebas definidas en el archivo app-test.js utilizando la biblioteca de pruebas vitest y el entorno simulado proporcionado por JSDOM.
