@@ -59,4 +59,5 @@ describe('APP',()=>{
         expect(imgSimulation.style.backgroundImage).toBe("url(../../public/img/blackcar.jpg)");
         expect(tagSimulation.style.backgroundColor).toBe("black");
       });
+      
 });
